@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from "./Components/addingStates/Counter"
+import Shopping from "./Components/Hooks/Shopping"
+import SearchableList from "./Components/LiftingStates/SearchableList"
+import Game from "./Components/LSExercise/Game"
+import MilesAhead from "./Components/StatesExercises/MilesAhead"
+import Superdrug from "./Components/DataRequests/Superdrug"
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      {/* // <Counter/>
+      // <MilesAhead/>
+      // <SearchableList/> */}
+      // // {/* <Game/> */}
+     {/* <Shopping/> */}
+      {/* <Router>
+    //      <Nav/>
+    //          <Switch>
+    //          <Route exact path="/">
+    //              <Home/>
+    //          </Route>
+    //          <Route path="/about">
+    //              <About/>
+    //          </Route>
+    //          <Route path="/shop">
+    //              <Shop/>
+    //          </Route>
+    //          </Switch>
+    //      </Router>   
+    // </div> */}
+    <Superdrug/>
+  </div>)
 }
 
 export default App;
